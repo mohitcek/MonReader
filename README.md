@@ -6,5 +6,5 @@ The two notebooks differ only in the data processing step, `CNN_model_with_data_
 
 Here, is an example of a low-resolution image along with the prediction probability and prediction from CNN model.
 
-![plot](./figures/Prediction Example.png)
+![plot](/figures/Prediction Example.png)
 
