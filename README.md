@@ -7,6 +7,7 @@ The two notebooks differ only in the data processing step, `CNN_model_with_data_
 Here, is an example of a low-resolution image along with the prediction probability and prediction from the CNN model.
 
 ![PredictionExample](https://github.com/mohitcek/MonReader/blob/main/figures/Prediction%20Example.png)
+<img src="https://github.com/mohitcek/MonReader/blob/main/figures/Prediction%20Example.png" width="50">
 
 The confusion matrix based on the performance of both models is as follows:
 
