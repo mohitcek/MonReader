@@ -5,7 +5,7 @@ import unittest
 class TestApp(unittest.TestCase):
     """Unit tests defined for app.py"""
 
-    def test_return_backwards_string(self):
+    def test_model_prediction(self):
         """Test return backwards simple string"""
         new_prediction = model_prediction('figures/test_image.png')
         correct_prediction = 0
