@@ -32,4 +32,4 @@ Observe that the model without Data Augmentation performs better on the training
  ![Case1Example1]( https://github.com/mohitcek/MonReader/blob/main/figures/Case1_example1.png)
  ![Case1Example2]( https://github.com/mohitcek/MonReader/blob/main/figures/Case1_example2.png)
  ![Case1Example3]( https://github.com/mohitcek/MonReader/blob/main/figures/Case1_example3.png)
- ![Case1Example4]( https://github.com/mohitcek/MonReader/blob/main/figures/Case1_example4.png)
+ ![Case1Example4](https://github.com/mohitcek/MonReader/blob/main/figures/case1_example4.png)
