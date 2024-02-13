@@ -11,3 +11,25 @@ Here, is an example of a low-resolution image along with the prediction probabil
 The confusion matrix based on the performance of both models is as follows:
 
 ![ConfusionMatrix](https://github.com/mohitcek/MonReader/blob/main/figures/CM.png)
+
+Observe that the model without Data Augmentation performs better on the training as well as testing dataset. The following patterns are observed based on the results from Grad-CAM.
+- CNN Model (without data augmentation)
+  1. The model focuses on the nail of the person's hand and the book's edges.
+  2. It is observed that the model classified an image as page flip (value "0") if it can find a book's edge and no fingernails on the right side.
+ 
+- CNN model (with data augmentation)
+  1. The model focuses on the edge of the person's finger/hand. Generally, the side of the hand is visible during page flip.
+  2. It is observed that the model classified an image as page flip (value "0") if the final layer can detect a large enough area of the hand facing up.
+
+ Here, are a few examples from both models to support the above statements.
+
+1. CNN Model (without data augmentation)
+ ![Case0Example1]( https://github.com/mohitcek/MonReader/blob/main/figures/Case0_example1.png)
+ ![Case0Example2]( https://github.com/mohitcek/MonReader/blob/main/figures/Case0_example2.png)
+ ![Case0Example3]( https://github.com/mohitcek/MonReader/blob/main/figures/Case0_example3.png)
+
+2. CNN Model (with data augmentation)
+ ![Case1Example1]( https://github.com/mohitcek/MonReader/blob/main/figures/Case1_example1.png)
+ ![Case1Example2]( https://github.com/mohitcek/MonReader/blob/main/figures/Case1_example2.png)
+ ![Case1Example3]( https://github.com/mohitcek/MonReader/blob/main/figures/Case1_example3.png)
+ ![Case1Example4]( https://github.com/mohitcek/MonReader/blob/main/figures/Case1_example4.png)
