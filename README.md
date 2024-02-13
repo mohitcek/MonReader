@@ -24,12 +24,12 @@ Observe that the model without Data Augmentation performs better on the training
  Here, are a few examples from both models to support the above statements.
 
 1. CNN Model (without data augmentation)
- ![Case0Example1]( https://github.com/mohitcek/MonReader/blob/main/figures/Case0_example1.png)
- ![Case0Example2]( https://github.com/mohitcek/MonReader/blob/main/figures/Case0_example2.png)
- ![Case0Example3]( https://github.com/mohitcek/MonReader/blob/main/figures/Case0_example3.png)
+ ![Case0Example1](https://github.com/mohitcek/MonReader/blob/main/figures/Case0_example1.png)
+ ![Case0Example2](https://github.com/mohitcek/MonReader/blob/main/figures/Case0_example2.png)
+ ![Case0Example3](https://github.com/mohitcek/MonReader/blob/main/figures/Case0_example3.png)
 
 2. CNN Model (with data augmentation)
- ![Case1Example1]( https://github.com/mohitcek/MonReader/blob/main/figures/Case1_example1.png)
- ![Case1Example2]( https://github.com/mohitcek/MonReader/blob/main/figures/Case1_example2.png)
- ![Case1Example3]( https://github.com/mohitcek/MonReader/blob/main/figures/Case1_example3.png)
+ ![Case1Example1](https://github.com/mohitcek/MonReader/blob/main/figures/Case1_example1.png)
+ ![Case1Example2](https://github.com/mohitcek/MonReader/blob/main/figures/Case1_example2.png)
+ ![Case1Example3](https://github.com/mohitcek/MonReader/blob/main/figures/Case1_example3.png)
  ![Case1Example4](https://github.com/mohitcek/MonReader/blob/main/figures/case1_example4.png)
