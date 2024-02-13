@@ -4,7 +4,10 @@ This project develops a machine learning model for classification tasks in the f
 
 The two notebooks differ only in the data processing step, `CNN_model_with_data_augmentation.ipynb` implements data augmentation to create a robust model and increase model performance. Both models perform well on the training and testing datasets. Finally, Gradient-weighted Class Activation Mapping (Grad-CAM) is implemented on the output of the final convolutional layer in the network, which examines the gradient information flowing into the final layer.
 
-Here, is an example of a low-resolution image along with the prediction probability and prediction from CNN model.
+Here, is an example of a low-resolution image along with the prediction probability and prediction from the CNN model.
 
-![/figures/Prediction Example.png](https://github.com/mohitcek/MonReader/blob/main/figures/Prediction%20Example.png)
+![PredictionExample](https://github.com/mohitcek/MonReader/blob/main/figures/Prediction%20Example.png)
 
+The confusion matrix based on the performance of both models is as follows:
+
+![ConfusionMatrix](https://github.com/mohitcek/MonReader/blob/main/figures/CM.png)
